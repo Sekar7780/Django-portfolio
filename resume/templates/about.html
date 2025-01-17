@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+    <div class="col-4 d-flex justify-content-center align-item-center">
+        <img src="{% static 'images/img.jpg' %}" alt="Image" class="about_image">
+    </div>
+
+    <div class="col-7 text-left text-light">
+        <h2>Hello !</h2>
+        <p class="fs-5">I am a junior web developer with expertise in HTML, CSS, and JavaScript.
+            I have completed projects like a personal portfolio, a gambling game, and a user login system.
+            My recent internship at 8Queens helped me develop full-stack skills through various tasks and mini-projects.
+        </p>
+        <p class="fs-5">With a passion for coding, 
+            I approach every project with creativity and problem-solving skills.
+            My involvement in sports and NCC has shaped my leadership, teamwork, and adaptability.
+            These experiences continue to guide my growth as a developer.
+        </p>
+
+    </div>
+</div>
+
+<div class="row my-2">
+    <h2 class="text-center" style="color: #4fffb0;">My Tech Stack</h2>
+
+    <div class="d-flex justify-content-around align-item-center">
+        <img src="{%static 'images/html_img.png' %}" alt="images/html_img.png" width="50" height="50" class="img-fluid">
+        <img src="{%static 'images/css_img.jpg' %}" alt="images/html_img.png" width="50" height="50" class="img-fluid">
+        <img src="{%static 'images/js_img.png' %}" alt="images/html_img.png" width="50" height="50" class="img-fluid">
+        <img src="{%static 'images/py_img.jpg' %}" alt="images/html_img.png" width="50" height="50" class="img-fluid">
+        <img src="{%static 'images/django_img.png' %}" alt="images/html_img.png" width="50" height="50" class="img-fluid">
+        <img src="{%static 'images/sql_img.jpg' %}" alt="images/html_img.png" width="50" height="50" class="img-fluid">
+
+    </div>
+</div>
+
+
+{% endblock content1 %}
